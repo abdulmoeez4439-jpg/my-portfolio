@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Abdul Rehman</title>
+  <meta name="description" content="TODO: short description of the contact page" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="logo">Abdul<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's talk →</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding:70px 0 50px;">
+    <div class="container">
+      <div class="eyebrow">Contact</div>
+      <h1>Let's talk about your project</h1>
+      <div class="trace"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container grid contact-grid">
+      <!-- ============ CONTACT FORM ============ -->
+      <div class="card">
+        <h3>Send a message</h3>
+        <!-- NOTE: this form is a front-end demo only. Connect it to a real
+             service (Formspree, EmailJS, your own backend) to actually
+             receive messages. See js/script.js for the submit handler. -->
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message →</button>
+          <p id="form-status" style="margin-top:14px;font-family:var(--font-mono);font-size:.85rem;color:var(--accent);"></p>
+        </form>
+      </div>
+
+      <!-- ============ DIRECT CONTACT + SOCIAL + CV ============ -->
+      <div>
+        <div class="card" style="margin-bottom:24px;">
+          <h3>Direct contact</h3>
+          <!-- TODO: fill in your real contact details -->
+          <p>📧 <a href="mailto:you@example.com" style="color:var(--accent);">you@example.com</a></p>
+          <p>📱 <!-- TODO: phone number, or remove this line --> +00 000 000 0000</p>
+          <p>📍 <!-- TODO: city / country, or remove this line -->City, Country</p>
+        </div>
+
+        <div class="card" style="margin-bottom:24px;">
+          <h3>Find me online</h3>
+          <!-- TODO: replace # with your real profile URLs -->
+          <div class="social-list">
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">X</a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Resume / CV</h3>
+          <p>Want the short version? Grab a copy of my CV.</p>
+          <!-- TODO: place your real CV file at assets/cv.pdf -->
+          <a href="assets/cv.pdf" class="btn btn-outline" download>Download CV ↓</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">Abdul<span>.dev</span></div>
+          <p style="max-width:32ch;margin-top:10px;">Networking student & front-end developer building things that connect.</p>
+        </div>
+        <div>
+          <p style="color:var(--text-muted);font-family:var(--font-mono);font-size:.8rem;margin-bottom:10px;">FIND ME</p>
+          <div class="social-list">
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">X</a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> Abdul Rehman. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

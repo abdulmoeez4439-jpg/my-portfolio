@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TODO: replace with your name / role -->
+  <title>Abdul Rehman — Web Developer & Network Enthusiast</title>
+  <!-- TODO: write a one-sentence SEO description -->
+  <meta name="description" content="Portfolio of Abdul Rehman — student, front-end developer and networking enthusiast." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- TODO: add your own favicon -->
+  <!-- <link rel="icon" href="assets/favicon.png"> -->
+</head>
+<body>
+
+  <!-- ============ NAVIGATION / MENU ============ -->
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="logo"><!-- TODO: your name -->Abdul<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's talk →</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO / INTRODUCTION ============ -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Available for internships & freelance</div>
+        <!-- TODO: write your headline -->
+        <h1>Hi, I'm <span class="highlight">Abdul</span> —<br />I build networks and interfaces.</h1>
+        <!-- TODO: 2–3 sentence introduction about who you are -->
+        <p class="lead">
+          A student developer learning full-stack web development and network
+          administration. I like turning Cisco lab diagrams and CSS mockups
+          into things that actually work.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary">Get in touch</a>
+          <!-- TODO: put your real CV file at assets/cv.pdf -->
+          <a href="assets/cv.pdf" class="btn btn-outline" download>Download CV ↓</a>
+        </div>
+        <div class="hero-tags">
+          <!-- TODO: edit these tags to match your stack -->
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Cisco Packet Tracer</span>
+          <span>Networking</span>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="frame">
+          <!-- TODO: replace src with your own photo, e.g. assets/profile.jpg -->
+          <img src="https://placehold.co/600x600/161e2e/8b93a7?text=Your+Photo" alt="Portrait of Abdul Rehman" />
+        </div>
+        <div class="node-dot d1"></div>
+        <div class="node-dot d2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ ABOUT (SNAPSHOT) ============ -->
+  <section id="about-preview">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">About</div>
+        <h2>A quick introduction</h2>
+        <div class="trace"><span></span><span></span><span></span></div>
+        <!-- TODO: 3–4 sentence bio, expanded further on about.html -->
+        <p>
+          I'm currently studying networking and web development, working
+          through Cisco Packet Tracer labs on VLANs, ACLs and firewalls
+          during the day, and styling web pages at night. I like projects
+          that sit at the intersection of infrastructure and interface.
+        </p>
+        <a href="about.html" class="btn btn-outline">More about me →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS (SNAPSHOT) ============ -->
+  <section id="skills-preview">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Skills</div>
+        <h2>What I work with</h2>
+        <div class="trace"><span></span><span></span><span></span></div>
+      </div>
+      <div class="grid grid-4">
+        <!-- TODO: swap in your real tools -->
+        <div class="card"><div class="icon">&lt;/&gt;</div><h3>HTML & CSS</h3><p>Semantic markup and modern layout with flexbox & grid.</p></div>
+        <div class="card"><div class="icon">JS</div><h3>JavaScript</h3><p>DOM interaction, events, and basic app logic.</p></div>
+        <div class="card"><div class="icon">NW</div><h3>Networking</h3><p>VLANs, ACLs, routing and firewalls in Cisco Packet Tracer.</p></div>
+        <div class="card"><div class="icon">GIT</div><h3>Git & GitHub</h3><p>Version control for personal and team projects.</p></div>
+      </div>
+      <div style="text-align:center;margin-top:32px;">
+        <a href="skills.html" class="btn btn-outline">See full skill set →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES (SNAPSHOT) ============ -->
+  <section id="services-preview">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Services</div>
+        <h2>How I can help</h2>
+        <div class="trace"><span></span><span></span><span></span></div>
+      </div>
+      <div class="grid grid-3">
+        <!-- TODO: edit/add the services you actually offer -->
+        <div class="card"><h3>Website Building</h3><p>Responsive, hand-coded websites from a design or a rough idea.</p></div>
+        <div class="card"><h3>Network Setup Help</h3><p>Small network design & troubleshooting using Packet Tracer simulations.</p></div>
+        <div class="card"><h3>UI Styling & Fixes</h3><p>CSS clean-up, responsive fixes, and layout troubleshooting.</p></div>
+      </div>
+      <div style="text-align:center;margin-top:32px;">
+        <a href="services.html" class="btn btn-outline">View all services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED BLOG (SNAPSHOT) ============ -->
+  <section id="blog-preview">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Writing</div>
+        <h2>Latest articles</h2>
+        <div class="trace"><span></span><span></span><span></span></div>
+      </div>
+      <div class="grid grid-3">
+        <!-- TODO: replace with your real posts, or link out to blog.html entries -->
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/3fdbc0?text=Article+Cover" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>Article title goes here</h3>
+            <p>One or two sentence summary of the post.</p>
+          </div>
+        </article>
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/ffb454?text=Article+Cover" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>Second article title</h3>
+            <p>One or two sentence summary of the post.</p>
+          </div>
+        </article>
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/8b93a7?text=Article+Cover" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>Third article title</h3>
+            <p>One or two sentence summary of the post.</p>
+          </div>
+        </article>
+      </div>
+      <div style="text-align:center;margin-top:32px;">
+        <a href="blog.html" class="btn btn-outline">Read all articles →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT CTA ============ -->
+  <section id="cta">
+    <div class="container" style="text-align:center;">
+      <h2>Let's build something together.</h2>
+      <p style="max-width:50ch;margin:0 auto 24px;">Open to internships, freelance web projects, and networking-related opportunities.</p>
+      <a href="contact.html" class="btn btn-primary">Say hello →</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo"><!-- TODO -->Abdul<span>.dev</span></div>
+          <!-- TODO: one-line tagline -->
+          <p style="max-width:32ch;margin-top:10px;">Networking student & front-end developer building things that connect.</p>
+        </div>
+        <div>
+          <p style="color:var(--text-muted);font-family:var(--font-mono);font-size:.8rem;margin-bottom:10px;">FIND ME</p>
+          <div class="social-list">
+            <!-- TODO: replace # with your real profile links -->
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">X</a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> <!-- TODO: your name -->Abdul Rehman. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Abdul Rehman</title>
+  <meta name="description" content="TODO: short description of the about page" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="logo">Abdul<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's talk →</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding:70px 0 50px;">
+    <div class="container">
+      <div class="eyebrow">About me</div>
+      <!-- TODO: page heading -->
+      <h1>The person behind the portfolio</h1>
+      <div class="trace"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container hero-grid" style="align-items:flex-start;">
+      <div>
+        <!-- TODO: replace with your real, longer bio (4–6 paragraphs) -->
+        <p>
+          Hi, I'm Abdul — a student splitting my time between two things I
+          enjoy: building networks and building web pages. On one side I'm
+          working through Cisco Packet Tracer labs covering VLANs, ACLs,
+          routing and firewall configuration. On the other, I'm learning
+          front-end development, from plain HTML and CSS through to
+          JavaScript interactivity.
+        </p>
+        <p>
+          I like the way both fields reward the same habits: reading error
+          messages carefully, testing one change at a time, and documenting
+          what actually fixed the problem. Whether that's a misconfigured
+          VLAN or a CSS property that isn't valid, the debugging mindset is
+          the same.
+        </p>
+        <p>
+          <!-- TODO: mention hobbies, values, or what you're currently learning -->
+          Outside of coursework, I'm currently building learning resources
+          to help my brother pick up HTML — teaching something is usually
+          the fastest way to actually understand it yourself.
+        </p>
+        <p>
+          <!-- TODO: add a short "what I'm looking for" line -->
+          I'm currently looking for internship or entry-level opportunities
+          in web development or network administration.
+        </p>
+      </div>
+
+      <div>
+        <div class="hero-photo" style="justify-self:start;">
+          <div class="frame" style="width:260px;height:260px;">
+            <!-- TODO: replace with your photo -->
+            <img src="https://placehold.co/500x500/161e2e/8b93a7?text=About+Photo" alt="Photo of Abdul Rehman" />
+          </div>
+        </div>
+        <div class="card" style="margin-top:28px;">
+          <h3>Quick facts</h3>
+          <ul style="color:var(--text-muted);font-family:var(--font-mono);font-size:.85rem;line-height:2;">
+            <!-- TODO: fill in your real details -->
+            <li>📍 Location: <!-- TODO -->City, Country</li>
+            <li>🎓 Studying: <!-- TODO -->Networking & Web Development</li>
+            <li>💼 Status: <!-- TODO -->Open to internships</li>
+            <li>🗣️ Languages: <!-- TODO -->English, Urdu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VALUES / HOW I WORK ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">How I work</div>
+        <h2>A few things I believe in</h2>
+        <div class="trace"><span></span><span></span><span></span></div>
+      </div>
+      <div class="grid grid-3">
+        <!-- TODO: edit these to reflect your own working style -->
+        <div class="card"><h3>Learn by building</h3><p>Every concept gets tested in a real lab or a real page before I trust it.</p></div>
+        <div class="card"><h3>Document everything</h3><p>Configs, troubleshooting steps, and code comments so future-me isn't lost.</p></div>
+        <div class="card"><h3>Small, working steps</h3><p>One change, one test, repeat — rather than guessing at a big fix.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">Abdul<span>.dev</span></div>
+          <p style="max-width:32ch;margin-top:10px;">Networking student & front-end developer building things that connect.</p>
+        </div>
+        <div>
+          <p style="color:var(--text-muted);font-family:var(--font-mono);font-size:.8rem;margin-bottom:10px;">FIND ME</p>
+          <div class="social-list">
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">X</a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> Abdul Rehman. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

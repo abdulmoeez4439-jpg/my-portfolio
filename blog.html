@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Abdul Rehman</title>
+  <meta name="description" content="TODO: short description of the blog page" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="logo">Abdul<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Let's talk →</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding:70px 0 50px;">
+    <div class="container">
+      <div class="eyebrow">Blog</div>
+      <h1>Notes on code, networks, and learning</h1>
+      <div class="trace"><span></span><span></span><span></span></div>
+      <!-- TODO: intro sentence -->
+      <p style="max-width:60ch;">Short write-ups about things I learn while working through labs and projects — mostly for my own notes, shared in case they help someone else.</p>
+    </div>
+  </header>
+
+  <!-- ============ ARTICLES / BLOG GRID ============ -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <!-- TODO: duplicate this card for each real post, or link "Read more" to a full post page -->
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/3fdbc0?text=Post+1" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>Fixing VLAN mismatches in Packet Tracer</h3>
+            <p>What I learned troubleshooting PCs stuck in the wrong VLAN during a network segmentation lab.</p>
+            <a href="#" class="btn btn-outline" style="margin-top:14px;">Read more →</a>
+          </div>
+        </article>
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/ffb454?text=Post+2" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>CSS properties VS Code will flag (and why)</h3>
+            <p>A few invalid CSS properties I ran into while styling my portfolio, and how I fixed each one.</p>
+            <a href="#" class="btn btn-outline" style="margin-top:14px;">Read more →</a>
+          </div>
+        </article>
+        <article class="card post-card">
+          <img src="https://placehold.co/500x300/1c2740/8b93a7?text=Post+3" alt="" />
+          <div class="post-body">
+            <div class="post-meta">TODO: DATE · TODO: READ TIME</div>
+            <h3>Teaching my brother HTML from scratch</h3>
+            <p>Notes from building a single-file HTML/CSS learning site to teach the basics.</p>
+            <a href="#" class="btn btn-outline" style="margin-top:14px;">Read more →</a>
+          </div>
+        </article>
+        <!-- TODO: add more <article> cards as you write more posts -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo">Abdul<span>.dev</span></div>
+          <p style="max-width:32ch;margin-top:10px;">Networking student & front-end developer building things that connect.</p>
+        </div>
+        <div>
+          <p style="color:var(--text-muted);font-family:var(--font-mono);font-size:.8rem;margin-bottom:10px;">FIND ME</p>
+          <div class="social-list">
+            <a href="#" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+            <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">X</a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> Abdul Rehman. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
